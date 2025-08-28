@@ -1,8 +1,8 @@
 import streamlit as st
-from PIL import image
+from PIL import Image
 
 st.title("Mi primera app")
 
-image = image.opem("InterfacesMultimodales/Assets/keko.png")
+img = Image.open("InterfacesMultimodales/Assets/keko.png")
 
-st.image(image, caption="DAMNNNNN")
+st.image(img, caption="DAMNNNNN")

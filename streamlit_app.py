@@ -9,3 +9,7 @@ st.write("el pajaro paton, la criatura más mistica, con más patas que pajaro, 
 img = Image.open("Assets/keko.png")
 
 st.image(img, caption="DAMNNNNN")
+
+texto = st.text_input("¿Que piensas del pajaro patón?")
+st.write("Tu opnion:", texto, ", es incorrecta por definicion")
+
